@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Kancart_MobileApi>
+            <version>1.1</version>
+        </Kancart_MobileApi>
+    </modules>
+    <frontend>
+        <routers>
+            <MobileApi>
+                <use>standard</use>
+                <args>
+                    <module>Kancart_MobileApi</module>
+                    <frontName>mobileapi</frontName>
+                </args>
+            </MobileApi>
+        </routers>
+    </frontend>
+    <global>
+        <models>
+            <mobileapi>
+                <class>Kancart_MobileApi_Model</class>
+            </mobileapi>
+        </models>
+        <helpers>
+            <mobileapi>
+                <class>Kancart_MobileApi_Helper</class>
+            </mobileapi>
+        </helpers>
+    </global>
+    <default>
+        <Kancart>
+            <Kancart_group>
+                <Kancart_appkey>KC_APP_KEY</Kancart_appkey>
+                <Kancart_appsecrect>KC_APP_SECRECT</Kancart_appsecrect>
+                <Kancart_PaymentEnv>1</Kancart_PaymentEnv>
+            </Kancart_group>
+        </Kancart>
+    </default>
+</config>
+
