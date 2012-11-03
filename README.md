@@ -1,4 +1,4 @@
-Magento-API-service-by-Kancart.com-Mobile
+Magento-Web-API-service-by-Kancart.com-Mobile
 =========================================
 
 Kancart Magento HTML5 Mobile Template / Theme & Native APP API Service
